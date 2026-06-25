@@ -1,0 +1,8 @@
+name: Feature request
+description: Suggest an improvement for the togo ratelimit plugin
+labels: [enhancement]
+body:
+  - type: textarea
+    id: idea
+    attributes: { label: What would you like? }
+    validations: { required: true }

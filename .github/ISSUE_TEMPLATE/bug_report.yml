@@ -1,0 +1,11 @@
+name: Bug report
+description: Report a problem with the togo ratelimit plugin
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes: { label: What happened?, description: Description + steps (include your policy limit/window). }
+    validations: { required: true }
+  - type: input
+    id: version
+    attributes: { label: ratelimit / togo version }
